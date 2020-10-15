@@ -63,6 +63,50 @@ body{
   margin: 0 10px;
 }
 
+.header_center{
+  margin: auto;
+  width: 80%;
+  position: relative;
+}
+
+.text_area{
+  position:relative;
+  width: 700px;
+  height: 455px;
+}
+
+.testo_principale{
+  width: 600px;
+  color: white;
+  font-size: 50px;
+  font-weight: 500;
+  position: absolute;
+  top: 20%;
+}
+
+.text_area .btn{
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: 80px;
+  color: white;
+  position: absolute;
+  top: 55%;
+}
+
+.btn{
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: #7cbb02;
+  padding: 3px 10px;
+}
+
+.btn_speciale{
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 3px 10px;
+}
 
 /* utlity */
 
