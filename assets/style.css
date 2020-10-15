@@ -66,11 +66,22 @@ body{
 .header_center{
   margin: auto;
   width: 80%;
-  position: relative;
+}
+
+.immagine_politici{
+
+  width: 100px;
+  height: 455px;
+  background-image: url(img/politici.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+
 }
 
 .text_area{
-  position:relative;
+  float: left;
+  position: relative;
   width: 700px;
   height: 455px;
 }
@@ -94,6 +105,7 @@ body{
 }
 
 .btn{
+  color: white;
   text-decoration: none;
   border-radius: 5px;
   background-color: #7cbb02;
@@ -106,6 +118,12 @@ body{
   border: 1px solid white;
   border-radius: 5px;
   padding: 3px 10px;
+  margin-right: 10px
+}
+
+.col_2{
+  float: left;
+  width: 50%;
 }
 
 /* utlity */
